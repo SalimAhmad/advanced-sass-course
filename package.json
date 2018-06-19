@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "concat:css": "concat -o css/style.css css/icon-font.css css/main.css"
+  },
+  "author": "Salim",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "node-sass": "^4.7.2"
+  },
+
+  "//": [
+      "Create package.json: CTRL+SHIFT+C to open command prompt: npm init",
+      "CTRL+SHIFT+C to open command prompt: npm install node-sass --save-dev",
+      "Compile sass > concat css > prefix css > minify css",
+      "CTRL+SHIFT+C to open command prompt: npm install concat --save-dev >>>THEN>>> npm run concat:css"
+    ]
+}
